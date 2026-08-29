@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "node --watch src/server.js",
         "generate:admin": "node scripts/generate-admin-credentials.mjs",
-        "build": "npm run check",
+        "build": "npm run build",
         "start": "node src/server.js",
         "check": "node scripts/check-syntax.mjs"
     },
